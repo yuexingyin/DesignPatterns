@@ -5,7 +5,7 @@ package Decorator;
  */
 public class Client {
     public static void main(String [] args ){
-        Person man = new Person("Leon");
+        Person man = new Person("Ivan");
         Shirts shirts = new Shirts(man);
         Pants pants = new Pants(man);
         shirts.wear();
