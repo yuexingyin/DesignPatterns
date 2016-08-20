@@ -12,6 +12,6 @@ public class Shirts extends Clothes {
     @Override
     public void wear() {
         person.wear();
-        System.out.println("shirt");
+        System.out.println("I just put on shirt");
     }
 }
